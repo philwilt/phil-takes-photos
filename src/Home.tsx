@@ -1,5 +1,3 @@
-// import { Routes, Route } from "react-router-dom";
-// import Galleries from "./components/Galleries";
 import Logo from "../public/philtakesphotos-logo.png";
 import "./App.css";
 
@@ -23,7 +21,7 @@ function App() {
           </h2>
           <a href="/galleries">
             <div className=" text-xl font-large flex flex-row mt-2 text-center rounded-sm pl-10 pr-40 pt-10 pb-20 bg-[url(/hero-1.png)] bg-cover">
-              <div className="text-xl font-large flex flex-row mt-2 text-center bg-neutral-50 pl-5 pr-5 dark:text-neutral-950">
+              <div className="text-xl font-large font-bold flex flex-row mt-2 text-center bg-neutral-50 pl-5 pr-5">
                 Gallery
               </div>
             </div>

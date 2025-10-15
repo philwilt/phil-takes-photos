@@ -1,14 +1,12 @@
 import React from "react";
-import Logo from "../../public/philtakesphotos-logo.png";
-import Gallery from "../components/Gallery";
-import patagonia from "../gallery/patagonia/patagonia.json";
-import yakima from "../gallery/yakima/yakima.json";
+import { Link } from "react-router-dom";
+import Logo from "/philtakesphotos-logo.png";
+import Gallery from "./Gallery";
+// import patagonia from "../gallery/patagonia/patagonia.json";
+// import yakima from "../gallery/yakima/yakima.json";
 
 const Galleries: React.FC = () => {
-  const galleries: Gallery[] = [
-    { galleryItems: yakima.images.slice(0, 3), title: yakima.title },
-    { galleryItems: patagonia.images.slice(0, 3), title: patagonia.title },
-  ];
+  const galleries = ["yakima", "patagonia"];
   return (
     <div className="mt-10">
       <a
@@ -23,17 +21,13 @@ const Galleries: React.FC = () => {
 
       <div className="flex flex-col gap-5 p-15 md:gap-8 h-auto grid-flow-col md:grid-flow-row">
         {galleries.map((gallery, index) => (
-          <a
-            className="gallery"
+          <Link
+            className="transform transition duration-300 hover:scale-105"
             key={index}
-            href={`/gallery/${gallery.title.toLowerCase()}`}
+            to={`/gallery/${gallery.toLowerCase()}`}
           >
-            <Gallery
-              galleryItems={gallery.galleryItems}
-              title={gallery.title}
-              link
-            />
-          </a>
+            <Gallery galleryName={gallery} link />
+          </Link>
         ))}
       </div>
     </div>

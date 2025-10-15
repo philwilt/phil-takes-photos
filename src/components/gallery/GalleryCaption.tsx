@@ -1,6 +1,6 @@
 import React from "react";
 
-import Pin from "../../public/mappin.svg";
+import Pin from "/mappin.svg";
 
 export interface Caption {
   short: string;
@@ -18,11 +18,11 @@ export const GalleryCaption: React.FC<{
 }> = ({ caption, link }) => {
   return (
     <>
-      <p className="gallery__item__caption text-sm text-center dark:text-background mt-2">
+      <p className="gallery__item__caption text-sm text-center text-foreground mt-2">
         {caption.short}
       </p>
       {!link && caption.location && (
-        <p className="italic gallery__item__caption text-xs text-center dark:text-background mt-0">
+        <p className="italic gallery__item__caption text-xs text-center text-foreground mt-0">
           {caption.technical}
         </p>
       )}
@@ -31,7 +31,7 @@ export const GalleryCaption: React.FC<{
           target="_blank"
           rel="noreferrer"
           href={caption.location?.toString()}
-          className="text-xs dark:text-background float-right"
+          className="text-xs text-foreground float-right"
         >
           <img
             src={Pin}

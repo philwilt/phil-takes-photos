@@ -8,7 +8,15 @@ const yakima: GalleryData = {
         technical: "(IR 720nm)",
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
-      src: "/yakima/snow-mountain-ranch-ir-color-1-2.jpg",
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-9-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "Trees reaching for the sky",
+        technical: "(IR 850nm)",
+        location: "https://maps.app.goo.gl/hjAD1fAL5Ryhrvi79",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-10-<SIZE>.png",
     },
     {
       caption: {
@@ -16,23 +24,97 @@ const yakima: GalleryData = {
         technical: "(IR 720nm)",
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
-      src: "/yakima/snow-mountain-ranch-ir-color-1-3.jpg",
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-11-<SIZE>.png",
     },
     {
       caption: {
-        short: "Trees reaching for the sky",
+        short: "Kloochman Rock",
+        technical: "(IR 850nm)",
+        location: "https://maps.app.goo.gl/hjAD1fAL5Ryhrvi79",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-3-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "Kloochman Rock in the pines",
+        technical: "(IR 850nm)",
+        location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-4-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "Witches hut",
         technical: "(IR 720nm)",
+        location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-6-<SIZE>.png",
+    },
+
+    {
+      caption: {
+        short: "Mt Rainier and a rock say hi",
+        technical: "(IR 720nm)",
+        location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-7-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "Pine peekaboo to Rimrock",
+        technical: "Long exposure (IR 850nm)",
+        location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-8-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "Fred G. Redmond bridge",
+        technical: "(IR 720nm)",
+        location: "https://maps.app.goo.gl/EfVL3nLikvhtB5Ps5",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-14-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "Fred G. Redmond bridge",
+        technical: "(IR 850nm)",
+        location: "https://maps.app.goo.gl/EfVL3nLikvhtB5Ps5",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-15-<SIZE>.png",
+    },
+
+    {
+      caption: {
+        short: "Lost by a lake in a forest fire",
+        technical: "Long exposure (IR 720nm)",
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
-      src: "/yakima/snow-mountain-ranch-ir-color-1.jpg",
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-2-<SIZE>.png",
     },
     {
       caption: {
         short: "Trees reaching for the sky",
-        technical: "Long exposure (IR 850nm)",
+        technical: "Sepia long exposure (IR 850nm)",
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
-      src: "/yakima/snow-mountain-ranch-ir-sepia-1.jpg",
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-12-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "Trees reaching for the sky",
+        technical: "B+W(IR 750nm)",
+        location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-13-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "Witches hut",
+        technical: "(IR 850nm)",
+        location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-5-<SIZE>.png",
     },
   ],
 };

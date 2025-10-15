@@ -1,8 +1,8 @@
 import classNames from "classnames";
-export interface GalleryImage {
-  src: string;
-  full?: boolean;
-}
+// export interface GalleryImage {
+//   src: string;
+//   full?: boolean;
+// }
 
 export const GalleryImage: React.FC<{
   src: string;
@@ -15,9 +15,11 @@ export const GalleryImage: React.FC<{
     "object-contain": true,
   });
 
+  const srcString = (src) => src.replace(/<SIZE>/, full ? "full" : "preview");
+
   return (
     <div className="gallery__item__image flex flex-1">
-      <img className={className} src={src} alt="Plentiphil logo" />
+      <img className={className} src={srcString(src)} alt="Plentiphil logo" />
     </div>
   );
 };

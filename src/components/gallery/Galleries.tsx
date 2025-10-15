@@ -18,7 +18,7 @@ const Galleries: React.FC = () => {
         Galleries
       </h1>
 
-      <div className="flex flex-col gap-5 p-15 md:gap-8 h-auto grid-flow-col md:grid-flow-row">
+      <div className="flex flex-col gap-5 p-4 md:gap-6 h-auto grid-flow-col md:grid-flow-row">
         {galleries.map((gallery, index) => (
           <Gallery galleryName={gallery} key={index} link />
         ))}

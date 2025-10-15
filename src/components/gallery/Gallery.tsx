@@ -1,14 +1,18 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-import { type GalleryData } from "../../gallery/galleryDataTypes";
+import {
+  type GalleryData,
+  type GalleryImageData,
+} from "../../gallery/galleryDataTypes";
+
 import getGalleryData from "../../gallery/galleryData";
 import { GalleryItem } from "./GalleryItem";
 import GalleryHeader from "./GalleryHeader";
 import { Navigate } from "react-router-dom";
 
 export interface Gallery {
-  galleryItems: GalleryItem[];
+  galleryItems: GalleryImageData[];
   title: string;
   galleryName?: string;
 }

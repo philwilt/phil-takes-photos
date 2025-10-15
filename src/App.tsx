@@ -15,7 +15,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
 
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center mt-3">
+      <footer className="flex  items-center justify-center mt-3">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://www.instagram.com/plentiphil/"

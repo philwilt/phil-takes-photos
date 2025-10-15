@@ -18,11 +18,11 @@ export const GalleryCaption: React.FC<{
 }> = ({ caption, link }) => {
   return (
     <>
-      <p className="gallery__item__caption text-sm text-center text-foreground mt-2">
+      <p className="gallery__item__caption text-sm text-center text-foreground dark:text-background mt-2">
         {caption.short}
       </p>
       {!link && caption.location && (
-        <p className="italic gallery__item__caption text-xs text-center text-foreground mt-0">
+        <p className="italic gallery__item__caption text-xs text-center text-foreground dark:text-background mt-0">
           {caption.technical}
         </p>
       )}

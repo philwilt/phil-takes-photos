@@ -1,5 +1,5 @@
 import React from "react";
-import { GalleryItem } from "../src/GalleryItem";
+import { GalleryItem } from "./GalleryItem";
 
 export interface Gallery {
   galleryItems: GalleryItem[];

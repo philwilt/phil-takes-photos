@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "../../public/philtakesphotos-logo.png";
 import Gallery from "../components/Gallery";
-import patagonia from "./patagonia/patagonia.json";
-import yakima from "./yakima/yakima.json";
+import patagonia from "../gallery/patagonia/patagonia.json";
+import yakima from "../gallery/yakima/yakima.json";
 
 const Galleries: React.FC = () => {
   const galleries: Gallery[] = [
@@ -11,19 +11,19 @@ const Galleries: React.FC = () => {
   ];
   return (
     <div className="mt-10">
-      <Link
+      <a
         href="/"
         className="text-3xl font-large flex flex-row content-center justify-center"
       >
-        <Image src={Logo} alt="Phil takes photos logo" width={36} height={36} />
-      </Link>
+        <img src={Logo} alt="Phil takes photos logo" width={36} height={36} />
+      </a>
       <h1 className="text-3xl font-large flex flex-row mt-6 font-extrabold justify-center">
         Galleries
       </h1>
 
       <div className="flex flex-col gap-5 p-15 md:gap-8 h-auto grid-flow-col md:grid-flow-row">
         {galleries.map((gallery, index) => (
-          <Link
+          <a
             className="gallery"
             key={index}
             href={`/gallery/${gallery.title.toLowerCase()}`}
@@ -33,7 +33,7 @@ const Galleries: React.FC = () => {
               title={gallery.title}
               link
             />
-          </Link>
+          </a>
         ))}
       </div>
     </div>

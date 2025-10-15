@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export interface GalleryImage {
   src: string;
 }
@@ -9,7 +7,7 @@ export const GalleryImage: React.FC<{
 }> = ({ src }) => {
   return (
     <div className="gallery__item__image">
-      <Image
+      <img
         className="rounded-md object-contain h-48 w-96"
         src={src}
         alt="Plentiphil logo"

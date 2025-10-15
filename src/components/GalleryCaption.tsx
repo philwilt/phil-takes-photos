@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
 import React from "react";
 
 import Pin from "../../public/mappin.svg";
@@ -29,20 +27,20 @@ export const GalleryCaption: React.FC<{
         </p>
       )}
       {!link && caption.location && (
-        <Link
+        <a
           target="_blank"
           rel="noreferrer"
           href={caption.location?.toString()}
           className="text-xs dark:text-background float-right"
         >
-          <Image
+          <img
             src={Pin}
             width={24}
             height={24}
             className="inline"
             alt="Map pin"
           />
-        </Link>
+        </a>
       )}
     </>
   );

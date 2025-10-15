@@ -1,6 +1,6 @@
 import React from "react";
 import { GalleryImage } from "./GalleryImage";
-import { Caption, GalleryCaption } from "./GalleryCaption";
+import { type Caption, GalleryCaption } from "./GalleryCaption";
 
 export interface GalleryItem {
   src: string;

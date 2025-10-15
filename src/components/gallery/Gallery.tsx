@@ -5,6 +5,7 @@ import { type GalleryData } from "../../gallery/galleryDataTypes";
 import getGalleryData from "../../gallery/galleryData";
 import { GalleryItem } from "./GalleryItem";
 import GalleryHeader from "./GalleryHeader";
+import { Navigate } from "react-router-dom";
 
 export interface Gallery {
   galleryItems: GalleryItem[];
@@ -20,10 +21,14 @@ export const Gallery: React.FC<{
   const galleryId = galleryName ? galleryName : id;
 
   if (typeof galleryId === "undefined") {
-    throw "No gallery by that id";
+    return <Navigate to="/" replace />;
   }
 
   const gallery: GalleryData = getGalleryData(galleryId);
+
+  if (!gallery) {
+    return <Navigate to="/" replace />;
+  }
 
   const galleryImages = link ? gallery.images.slice(0, 3) : gallery.images;
 

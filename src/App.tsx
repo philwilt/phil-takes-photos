@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Galleries from "./components/gallery/Galleries";
 import Gallery from "./components/gallery/Gallery";
 import Home from "./Home";
@@ -12,6 +12,7 @@ function App() {
         <Route path="/galleries" element={<Galleries />} />
         <Route path="/gallery/:id" element={<Gallery />} />
         {/*<Route path="/about" element={<About />} />*/}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
 
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center mt-3">

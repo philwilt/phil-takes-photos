@@ -2,17 +2,16 @@ import { type GalleryData } from "./galleryDataTypes";
 import yakima from "./yakima/yakima";
 import patagonia from "./patagonia/patagonia";
 
-const galleries = {
+export type GalleryDictionary = {
+  [index: string]: GalleryData;
+};
+
+const galleries: GalleryDictionary = {
   yakima: yakima,
   patagonia: patagonia,
 };
 
-type GalleryName = {
-  yakima: "yakima";
-  patagonia: "patagonia";
-};
-
-const getGalleryData = (galleryName: keyof typeof GalleryName): GalleryData => {
+const getGalleryData = (galleryName: string): GalleryData => {
   return galleries[galleryName];
 };
 

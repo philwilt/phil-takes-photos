@@ -11,11 +11,8 @@ const GalleryHeader: React.FC = () => {
       >
         <img src={Logo} alt="Phil takes photos logo" width={36} height={36} />
       </Link>
-      <Link
-        to="/galleries"
-        className="underline decoration-dotted underline-offset-8"
-      >
-        <h1 className="text-3xl font-large flex flex-row mt-6 font-extrabold justify-center">
+      <Link to="/galleries" className="">
+        <h1 className="text-3xl font-large flex flex-row mt-6 mb-8 font-extrabold justify-center underline decoration-dotted underline-offset-8">
           Galleries
         </h1>
       </Link>

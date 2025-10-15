@@ -31,13 +31,13 @@ export const GalleryCaption: React.FC<{
           target="_blank"
           rel="noreferrer"
           href={caption.location?.toString()}
-          className="text-xs text-foreground float-right"
+          className="text-xs text-foreground transform "
         >
           <img
             src={Pin}
             width={24}
             height={24}
-            className="inline"
+            className="inline transition duration-300 hover:scale-150 fill-blue-500 fill-current"
             alt="Map pin"
           />
         </a>

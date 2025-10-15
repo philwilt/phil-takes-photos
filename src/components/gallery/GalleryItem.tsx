@@ -1,8 +1,7 @@
+import Modal from "../modal/Modal";
 import React, { useState } from "react";
 import { GalleryImage } from "./GalleryImage";
 import { type Caption, GalleryCaption } from "./GalleryCaption";
-
-import Modal from "../modal/Modal";
 
 export const GalleryItem: React.FC<{
   src: string;
@@ -18,7 +17,7 @@ export const GalleryItem: React.FC<{
     <>
       <div
         onClick={() => setShowModal(true)}
-        className="gallery__item rounded-md p-4 shadow-lg shadow-black-500/10 transform transition duration-300 hover:scale-105"
+        className="cursor-pointer gallery__item rounded-md p-4 shadow-lg shadow-black-500/10 transform transition duration-300 hover:scale-105"
       >
         <GalleryImage src={src} />
         <GalleryCaption caption={caption} link={link} />

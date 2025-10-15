@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Logo from "/philtakesphotos-logo.png";
 import Gallery from "./Gallery";
 // import patagonia from "../gallery/patagonia/patagonia.json";
@@ -21,13 +20,7 @@ const Galleries: React.FC = () => {
 
       <div className="flex flex-col gap-5 p-15 md:gap-8 h-auto grid-flow-col md:grid-flow-row">
         {galleries.map((gallery, index) => (
-          <Link
-            className="transform transition duration-300 hover:scale-105"
-            key={index}
-            to={`/gallery/${gallery.toLowerCase()}`}
-          >
-            <Gallery galleryName={gallery} link />
-          </Link>
+          <Gallery galleryName={gallery} key={index} link />
         ))}
       </div>
     </div>

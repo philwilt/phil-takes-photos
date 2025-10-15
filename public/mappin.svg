@@ -17,9 +17,9 @@
        M128 122
        A32 32 0 1 1 128 58
        A32 32 0 1 1 128 122Z"
-       fill="#000"
+       fill="oklch(58.6% 0.253 17.585)"
     />
 
   <!-- Small square accent (bottom-right) -->
-  <rect x="182" y="170" width="18" height="18" rx="2" ry="2" fill="#000"/>
+  <rect x="182" y="170" width="18" height="18" rx="2" ry="2" fill="oklch(58.6% 0.253 17.585)" />
 </svg>

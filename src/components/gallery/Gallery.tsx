@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
 import {
@@ -44,9 +45,14 @@ export const Gallery: React.FC<{
           {gallery.title}
         </h2>
         {link && (
-          <p className="text-xs text-center flex flex-row justify-evenly underline decoration-dotted underline-offset-4 decoration-2">
-            (click for more...)
-          </p>
+          <Link
+            className="transform transition duration-300 hover:scale-105"
+            to={`/gallery/${gallery.title.toLowerCase()}`}
+          >
+            <p className="text-xs text-center flex flex-row justify-evenly underline decoration-dotted underline-offset-4 decoration-2 transform transition duration-300 hover:scale-110">
+              (click for more...)
+            </p>
+          </Link>
         )}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-5">
           {galleryImages.map(({ src, caption }, index) => (

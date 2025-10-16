@@ -1,5 +1,6 @@
 import { type GalleryData } from "./galleryDataTypes";
 import yakima from "./yakima/yakima";
+import vietnam from "./vietnam/vietnam";
 import patagonia from "./patagonia/patagonia";
 
 export type GalleryDictionary = {
@@ -8,6 +9,7 @@ export type GalleryDictionary = {
 
 const galleries: GalleryDictionary = {
   yakima: yakima,
+  vietnam: vietnam,
   patagonia: patagonia,
 };
 

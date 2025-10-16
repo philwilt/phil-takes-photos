@@ -1,11 +1,9 @@
 import React from "react";
 import Logo from "/philtakesphotos-logo.png";
 import Gallery from "./Gallery";
-// import patagonia from "../gallery/patagonia/patagonia.json";
-// import yakima from "../gallery/yakima/yakima.json";
 
 const Galleries: React.FC = () => {
-  const galleries = ["yakima", "patagonia"];
+  const galleries = ["yakima", "vietnam", "patagonia"];
   return (
     <div className="mt-10">
       <a

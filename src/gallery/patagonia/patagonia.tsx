@@ -1,28 +1,42 @@
 import { type GalleryData } from "../galleryDataTypes";
-
 const patagonia: GalleryData = {
   title: "Patagonia",
   images: [
     {
       caption: {
-        short: "Torres del Paine",
-        location: "https://maps.app.goo.gl/4ds76KHg83qwR2AA7",
+        short: "patagonia ",
       },
-      src: "/patagonia/ARTSHOW-3.jpg",
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-1-<SIZE>.png",
     },
     {
       caption: {
-        short: "Estancia libations",
-        location: "https://maps.app.goo.gl/xmdYeajZXyfzXACV7",
+        short: "patagonia ",
       },
-      src: "/patagonia/ARTSHOW-4.jpg",
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-2-<SIZE>.png",
     },
     {
       caption: {
-        short: "Patagonian Gaucho",
-        location: "https://maps.app.goo.gl/xmdYeajZXyfzXACV7",
+        short: "patagonia ",
       },
-      src: "/patagonia/ARTSHOW-5.jpg",
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-3-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "patagonia ",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-4-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "patagonia ",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-5-<SIZE>.png",
+    },
+    {
+      caption: {
+        short: "patagonia ",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-6-<SIZE>.png",
     },
   ],
 };

@@ -3,7 +3,7 @@ import Logo from "/philtakesphotos-logo.png";
 import Gallery from "./Gallery";
 
 const Galleries: React.FC = () => {
-  const galleries = ["yakima", "vietnam", "patagonia"];
+  const galleries = ["pnw", "vietnam", "patagonia"];
   return (
     <div className="mt-10">
       <a

@@ -47,7 +47,7 @@ export const Gallery: React.FC<{
         {link && (
           <Link
             className="transform transition duration-300 hover:scale-105"
-            to={`/gallery/${gallery.title.toLowerCase()}`}
+            to={`/gallery/${gallery.routeName}`}
           >
             <p className="text-xs text-center flex flex-row justify-evenly underline decoration-dotted underline-offset-4 decoration-2 transform transition duration-300 hover:scale-110">
               (click for more...)

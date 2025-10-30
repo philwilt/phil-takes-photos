@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Logo from "../public/philtakesphotos-logo.png";
 import "./App.css";
 
-function App() {
+function Home() {
   return (
     <>
       <div className="grid items-center justify-items-center">
@@ -20,19 +20,31 @@ function App() {
           <h2 className="text-xl font-large flex flex-row  text-center">
             capturing the surreal and the serene
           </h2>
-          <Link to={"/galleries"}>
-            <div className="shadow-md shadow-black-950/10 p-2 transform transition duration-300 hover:scale-102">
-              <div className=" text-xl font-large flex flex-row mt-2 text-center rounded-sm pl-10 pr-40 pt-10 pb-20 bg-[url(/hero-1.png)] bg-cover">
-                <div className="text-xl font-large font-bold flex flex-row mt-2 text-center bg-neutral-50 pl-5 pr-5">
-                  Gallery
+          <div className="flex flex-row">
+            <Link to={"/galleries"}>
+              <div className="shadow-md shadow-black-950/10 p-2 transform transition duration-300 hover:scale-102">
+                <div className=" text-xl font-large flex flex-row mt-2 text-center rounded-sm pl-10 pr-40 pt-10 pb-20 bg-[url(/hero-1.png)] bg-cover">
+                  <div className="text-xl font-large font-bold flex flex-row mt-2 text-center bg-neutral-50 pl-5 pr-5">
+                    Gallery
+                  </div>
                 </div>
               </div>
-            </div>
-          </Link>
+            </Link>
+
+            <Link to={"/about"}>
+              <div className="shadow-md shadow-black-950/10 p-2 transform transition duration-300 hover:scale-102">
+                <div className=" text-xl font-large flex flex-row mt-2 text-center rounded-sm pl-10 pr-40 pt-10 pb-20 bg-[url(/about-me.jpg)] bg-cover">
+                  <div className="text-xl font-large font-bold flex flex-row mt-2 text-center bg-neutral-50 pl-5 pr-5">
+                    About
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </div>
         </main>
       </div>
     </>
   );
 }
 
-export default App;
+export default Home;

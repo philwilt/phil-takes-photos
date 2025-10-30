@@ -1,5 +1,5 @@
 import { type GalleryData } from "./galleryDataTypes";
-import yakima from "./yakima/yakima";
+import pnw from "./pnw/pnw";
 import vietnam from "./vietnam/vietnam";
 import patagonia from "./patagonia/patagonia";
 
@@ -8,7 +8,7 @@ export type GalleryDictionary = {
 };
 
 const galleries: GalleryDictionary = {
-  yakima: yakima,
+  pnw: pnw,
   vietnam: vietnam,
   patagonia: patagonia,
 };

@@ -11,5 +11,6 @@ export type GalleryImageData = {
 
 export type GalleryData = {
   title: string;
+  routeName: string;
   images: GalleryImageData[];
 };

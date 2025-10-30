@@ -1,7 +1,16 @@
 import { type GalleryData } from "../galleryDataTypes";
-const yakima: GalleryData = {
-  title: "Yakima",
+const pnw: GalleryData = {
+  title: "Pacific Northwest",
+  routeName: "pnw",
   images: [
+    {
+      caption: {
+        short: "Moses Coulee",
+        technical: "(IR 850nm)",
+        location: "https://maps.app.goo.gl/LuWQLYsKqqnw7bQH8",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-16-<SIZE>.png",
+    },
     {
       caption: {
         short: "Fields of grass with a copse of trees",
@@ -119,4 +128,4 @@ const yakima: GalleryData = {
   ],
 };
 
-export default yakima;
+export default pnw;

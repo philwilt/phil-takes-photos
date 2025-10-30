@@ -11,6 +11,40 @@ const pnw: GalleryData = {
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-16-<SIZE>.png",
     },
+
+    {
+      caption: {
+        short: "Abadonded Tractor Repair",
+        technical: "(IR 720nm)",
+        location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-5-<SIZE>.jpg",
+    },
+    {
+      caption: {
+        short: "Stump",
+        technical: "Long expsoure",
+        location: "https://maps.app.goo.gl/A7rJjj8WxTsg6qW29",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-17-<SIZE>.jpg",
+    },
+
+    {
+      caption: {
+        short: "Abadonded Truck Repair",
+        technical: "(IR 850nm)",
+        location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-7-<SIZE>.jpg",
+    },
+    {
+      caption: {
+        short: "Farmer Community Hall",
+        technical: "(IR 720nm)",
+        location: "https://maps.app.goo.gl/emE2dRBr8p4C8G4d6",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-8-<SIZE>.jpg",
+    },
     {
       caption: {
         short: "Fields of grass with a copse of trees",
@@ -21,11 +55,19 @@ const pnw: GalleryData = {
     },
     {
       caption: {
-        short: "Stump",
-        technical: "Long expsoure",
-        location: "https://maps.app.goo.gl/A7rJjj8WxTsg6qW29",
+        short: "Iredale Wreck",
+        technical: "Long exposure",
+        location: "https://maps.app.goo.gl/pX5dT4Av2dZL8XgR7",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-17-<SIZE>.jpg",
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/iredale-wreck-1-<SIZE>.jpg",
+    },
+    {
+      caption: {
+        short: "Abadonded Tractor Repair",
+        technical: "Sepia (IR 720nm)",
+        location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-6-<SIZE>.jpg",
     },
     {
       caption: {
@@ -76,6 +118,31 @@ const pnw: GalleryData = {
     },
     {
       caption: {
+        short: "Fence into Fertile River",
+        technical: "(IR 720nm)",
+        location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-2-<SIZE>.jpg",
+    },
+    {
+      caption: {
+        short: "Fence into Fertile River",
+        technical: "Sepia (IR 720nm)",
+        location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-3-<SIZE>.jpg",
+    },
+    {
+      caption: {
+        short: "Tractor Storage",
+        technical: "(IR 720nm)",
+        location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-4-<SIZE>.jpg",
+    },
+
+    {
+      caption: {
         short: "Mt Rainier and a rock say hi",
         technical: "(IR 720nm)",
         location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
@@ -100,8 +167,15 @@ const pnw: GalleryData = {
     },
     {
       caption: {
+        short: "Fall Leaves",
+        location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-1-<SIZE>.jpg",
+    },
+    {
+      caption: {
         short: "Fred G. Redmond bridge",
-        technical: "(IR 850nm)",
+        technical: "Sepia (IR 720nm)",
         location: "https://maps.app.goo.gl/EfVL3nLikvhtB5Ps5",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-15-<SIZE>.png",

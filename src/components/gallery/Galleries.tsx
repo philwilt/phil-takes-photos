@@ -3,7 +3,15 @@ import Logo from "/philtakesphotos-logo.png";
 import Gallery from "./Gallery";
 
 const Galleries: React.FC = () => {
-  const galleries = ["pnw", "vietnam", "europe", "patagonia", "chicago"];
+  const galleries = [
+    "pnw",
+    "vietnam",
+    "taipei",
+    "europe",
+    "patagonia",
+    "seattle",
+    "chicago",
+  ];
   return (
     <div className="mt-10">
       <a

@@ -14,14 +14,17 @@ function Home() {
             height={36}
             className="text-3xl font-large flex flex-row content-center"
           />
+
           <h1 className="text-3xl font-large flex flex-row">
             Phil Takes Photos
           </h1>
-          <h2 className="text-xl font-large flex flex-row  text-center">
+
+          <h2 className="text-xl font-large flex flex-row text-center">
             capturing the surreal and the serene
           </h2>
-          <div className="flex flex-row">
-            <Link to={"/galleries"}>
+
+          <div className="flex flex-col sm:flex-row">
+            <Link to={"/galleries"} className="flex flex-row">
               <div className="shadow-md shadow-black-950/10 p-2 transform transition duration-300 hover:scale-102">
                 <div className=" text-xl font-large flex flex-row mt-2 text-center rounded-sm pl-10 pr-40 pt-10 pb-20 bg-[url(/hero-1.png)] bg-cover">
                   <div className="text-xl font-large font-bold flex flex-row mt-2 text-center bg-neutral-50 pl-5 pr-5">
@@ -31,10 +34,10 @@ function Home() {
               </div>
             </Link>
 
-            <Link to={"/about"}>
+            <Link to={"/about"} className="flex flex-row">
               <div className="shadow-md shadow-black-950/10 p-2 transform transition duration-300 hover:scale-102">
                 <div className=" text-xl font-large flex flex-row mt-2 text-center rounded-sm pl-10 pr-40 pt-10 pb-20 bg-[url(/about-me.jpg)] bg-cover">
-                  <div className="text-xl font-large font-bold flex flex-row mt-2 text-center bg-neutral-50 pl-5 pr-5">
+                  <div className="text-xl font-large font-bold flex flex-row mt-2 text-center bg-neutral-50 pl-5 pr-5 ml-3 mr-2">
                     About
                   </div>
                 </div>

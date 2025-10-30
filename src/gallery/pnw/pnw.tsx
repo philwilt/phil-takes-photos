@@ -21,6 +21,14 @@ const pnw: GalleryData = {
     },
     {
       caption: {
+        short: "Stump",
+        technical: "Long expsoure",
+        location: "https://maps.app.goo.gl/A7rJjj8WxTsg6qW29",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-17-<SIZE>.jpg",
+    },
+    {
+      caption: {
         short: "Trees reaching for the sky",
         technical: "(IR 850nm)",
         location: "https://maps.app.goo.gl/hjAD1fAL5Ryhrvi79",
@@ -59,7 +67,13 @@ const pnw: GalleryData = {
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-6-<SIZE>.png",
     },
-
+    {
+      caption: {
+        short: "Mushrooms",
+        location: "https://maps.app.goo.gl/A7rJjj8WxTsg6qW29",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-18-<SIZE>.jpg",
+    },
     {
       caption: {
         short: "Mt Rainier and a rock say hi",

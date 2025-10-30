@@ -13,16 +13,14 @@ const europe: GalleryData = {
     },
     {
       caption: {
-        short: "Moses Coulee",
-        technical: "Long Exposure B+W (IR 850nm)",
-        location: "https://maps.app.goo.gl/LuWQLYsKqqnw7bQH8",
+        short: "Fortress",
+        location: "https://maps.app.goo.gl/vDMT6QYY21divaM9A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-1-<SIZE>.png",
     },
     {
       caption: {
         short: "Effiel Inside",
-        technical: "(IR 720nm)",
         location: "https://maps.app.goo.gl/ofvBYuxbTi4JKBnQ7",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-4-<SIZE>.png",
@@ -30,7 +28,6 @@ const europe: GalleryData = {
     {
       caption: {
         short: "Mort Subite",
-        technical: "(IR 850nm)",
         location: "https://maps.app.goo.gl/nPg9VCuk7YNVjrDX8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-3-<SIZE>.png",
@@ -45,6 +42,7 @@ const europe: GalleryData = {
     {
       caption: {
         short: "Belgian Countryside Sunrise",
+        location: "https://maps.app.goo.gl/rHibVYKjPF27x2pR9",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-2-<SIZE>.png",
     },

@@ -19,6 +19,13 @@ const vietnam: GalleryData = {
     },
     {
       caption: {
+        short: "Tràng An Water Lillies",
+        location: "https://maps.app.goo.gl/zkATt1f6uEbV5TcR9",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/vietnam/vietnam-15-<SIZE>.png",
+    },
+    {
+      caption: {
         short: "Tra Que Vegetable Village - Watering Crops",
         location: "https://maps.app.goo.gl/ga91PLRpsYLr4hys8",
       },
@@ -101,13 +108,6 @@ const vietnam: GalleryData = {
         location: "https://maps.app.goo.gl/zkATt1f6uEbV5TcR9",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/vietnam/vietnam-14-<SIZE>.png",
-    },
-    {
-      caption: {
-        short: "Tràng An Water Lillies",
-        location: "https://maps.app.goo.gl/zkATt1f6uEbV5TcR9",
-      },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/vietnam/vietnam-15-<SIZE>.png",
     },
   ],
 };

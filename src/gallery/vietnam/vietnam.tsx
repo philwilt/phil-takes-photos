@@ -26,6 +26,13 @@ const vietnam: GalleryData = {
     },
     {
       caption: {
+        short: "Hội An Lanterns",
+        location: "https://maps.app.goo.gl/qE5nFWWsrvZuwcsW8",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/vietnam/vietnam-16-<SIZE>.png",
+    },
+    {
+      caption: {
         short: "Tra Que Vegetable Village - Watering Crops",
         location: "https://maps.app.goo.gl/ga91PLRpsYLr4hys8",
       },

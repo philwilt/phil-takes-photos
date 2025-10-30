@@ -6,6 +6,13 @@ const europe: GalleryData = {
   images: [
     {
       caption: {
+        short: "Effiel Inside",
+        location: "https://maps.app.goo.gl/ofvBYuxbTi4JKBnQ7",
+      },
+      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-4-<SIZE>.png",
+    },
+    {
+      caption: {
         short: "Effiel & Lamp",
         location: "https://maps.app.goo.gl/ofvBYuxbTi4JKBnQ7",
       },
@@ -17,13 +24,6 @@ const europe: GalleryData = {
         location: "https://maps.app.goo.gl/vDMT6QYY21divaM9A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-1-<SIZE>.png",
-    },
-    {
-      caption: {
-        short: "Effiel Inside",
-        location: "https://maps.app.goo.gl/ofvBYuxbTi4JKBnQ7",
-      },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-4-<SIZE>.png",
     },
     {
       caption: {

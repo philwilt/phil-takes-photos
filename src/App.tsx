@@ -16,7 +16,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
 
-      <footer className="flex  items-center justify-center mt-3">
+      <footer className="flex flex-col items-center justify-center mt-3 gap-2">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://www.instagram.com/plentiphil/"
@@ -31,6 +31,14 @@ function App() {
             height={36}
           />
           Instragram
+        </a>
+        <a
+          className="hover:underline hover:underline-offset-4"
+          href="https://github.com/philwilt/phil-takes-photos"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Made by Phil Wilt
         </a>
       </footer>
     </>

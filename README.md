@@ -1,6 +1,6 @@
 # Phil Takes Photos
 
-![Phil Takes Photos Logo](public/philtakesphotos-logo.png)
+<img src="public/philtakesphotos-logo.png" alt="Phil Takes Photos Logo" width="100" />
 
 A photography portfolio showcasing surreal and serene moments captured through the lens.
 

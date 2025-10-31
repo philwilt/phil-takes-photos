@@ -72,7 +72,7 @@ const pnw: GalleryData = {
     {
       caption: {
         short: "Trees reaching for the sky",
-        technical: "(IR 850nm)",
+        technical: "(IR 720nm)",
         location: "https://maps.app.goo.gl/hjAD1fAL5Ryhrvi79",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-10-<SIZE>.png",
@@ -200,7 +200,7 @@ const pnw: GalleryData = {
     {
       caption: {
         short: "Trees reaching for the sky",
-        technical: "B+W (IR 750nm)",
+        technical: "B+W (IR 850nm)",
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-13-<SIZE>.png",

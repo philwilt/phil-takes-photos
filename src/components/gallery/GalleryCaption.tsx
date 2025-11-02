@@ -18,11 +18,11 @@ export const GalleryCaption: React.FC<{
 }> = ({ caption, link }) => {
   return (
     <>
-      <p className="gallery__item__caption text-sm text-center text-foreground dark:text-background mt-2">
+      <p className="gallery__item__caption text-sm text-center text-neutral-950 mt-2">
         {caption.short}
       </p>
       {!link && caption.location && (
-        <p className="italic gallery__item__caption text-xs text-center text-foreground dark:text-background mt-0">
+        <p className="italic gallery__item__caption text-xs text-center text-neutral-950 mt-0">
           {caption.technical}
         </p>
       )}
@@ -31,7 +31,7 @@ export const GalleryCaption: React.FC<{
           target="_blank"
           rel="noreferrer"
           href={caption.location?.toString()}
-          className="text-xs text-foreground transform "
+          className="text-xs text-foreground dark:text-neutral-950 transform"
         >
           <img
             src={Pin}

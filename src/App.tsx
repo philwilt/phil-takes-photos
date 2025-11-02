@@ -3,11 +3,12 @@ import About from "./About";
 import Galleries from "./components/gallery/Galleries";
 import Gallery from "./components/gallery/Gallery";
 import Home from "./Home";
+import { ThemeProvider } from "./components/ThemeContext";
 import "./App.css";
 
 function App() {
   return (
-    <>
+    <ThemeProvider>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/galleries" element={<Galleries />} />
@@ -41,7 +42,7 @@ function App() {
           Made by Phil Wilt
         </a>
       </footer>
-    </>
+    </ThemeProvider>
   );
 }
 

@@ -15,7 +15,7 @@ const Galleries: React.FC = () => {
   ];
   return (
     <div className="mt-10">
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-4 pl-4 pr-4">
         <a
           href="/"
           className="text-3xl font-large flex flex-row content-center"

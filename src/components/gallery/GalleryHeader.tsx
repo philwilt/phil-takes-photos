@@ -6,7 +6,7 @@ import ThemeToggle from "../ThemeToggle";
 const GalleryHeader: React.FC = () => {
   return (
     <div className="mt-10 mb-3">
-      <div className="flex justify-between items-center mb-4">
+      <div className="flex justify-between items-center mb-4 pl-4">
         <Link
           to="/"
           className="text-3xl font-large flex flex-row content-center"

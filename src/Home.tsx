@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <div className="w-full">
-        <header className="flex justify-between items-center p-4">
+        <header className="flex justify-between items-center p-4 pl-0">
           <div className="flex items-center">
             <img
               src={Logo}

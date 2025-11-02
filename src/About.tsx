@@ -7,7 +7,7 @@ function About() {
   return (
     <>
       <div className="w-full">
-        <header className="flex justify-between items-center p-4">
+        <header className="flex justify-between items-center p-4 pl-0">
           <Link to="/" className="flex items-center">
             <img
               src={Logo}

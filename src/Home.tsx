@@ -1,20 +1,27 @@
 import { Link } from "react-router-dom";
 import Logo from "../public/philtakesphotos-logo.png";
+import ThemeToggle from "./components/ThemeToggle";
 import "./App.css";
 
 function Home() {
   return (
     <>
+      <div className="w-full">
+        <header className="flex justify-between items-center p-4">
+          <div className="flex items-center">
+            <img
+              src={Logo}
+              alt="Phil takes photos logo"
+              width={36}
+              height={36}
+              className="text-3xl font-large"
+            />
+          </div>
+          <ThemeToggle />
+        </header>
+      </div>
       <div className="grid items-center justify-items-center">
-        <main className="flex flex-col gap-[16px] row-start-1 items-center sm:items-start justify-center mb-6 mt-10">
-          <img
-            src={Logo}
-            alt="Phil takes photos logo"
-            width={36}
-            height={36}
-            className="text-3xl font-large flex flex-row content-center"
-          />
-
+        <main className="flex flex-col gap-[16px] row-start-1 items-center sm:items-start justify-center mb-6">
           <h1 className="text-3xl font-large flex flex-row">
             Phil Takes Photos
           </h1>

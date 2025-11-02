@@ -1,16 +1,14 @@
 import { Link } from "react-router-dom";
 import Logo from "../public/philtakesphotos-logo.png";
+import ThemeToggle from "./components/ThemeToggle";
 import "./App.css";
 
 function About() {
   return (
     <>
-      <div className="grid justify-items-center">
-        <main className="flex flex-col gap-[16px] row-start-1 items-center sm:items-start justify-center mb-6 mt-10">
-          <Link
-            to="/"
-            className="text-3xl font-large flex flex-row content-center justify-center"
-          >
+      <div className="w-full">
+        <header className="flex justify-between items-center p-4">
+          <Link to="/" className="flex items-center">
             <img
               src={Logo}
               alt="Phil takes photos logo"
@@ -18,7 +16,11 @@ function About() {
               height={36}
             />
           </Link>
-
+          <ThemeToggle />
+        </header>
+      </div>
+      <div className="grid justify-items-center">
+        <main className="flex flex-col gap-[16px] row-start-1 items-center sm:items-start justify-center mb-6">
           <Link
             to="/"
             className="text-3xl font-large flex flex-row content-center justify-center"

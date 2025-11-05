@@ -10,6 +10,14 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/LuWQLYsKqqnw7bQH8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-16-<SIZE>.png",
+      tags: [
+        "long exposure",
+        "b+w",
+        "infrared",
+        "850nm",
+        "landscape",
+        "nature",
+      ],
     },
 
     {
@@ -19,6 +27,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-5-<SIZE>.jpg",
+      tags: ["infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -27,6 +36,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/A7rJjj8WxTsg6qW29",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-17-<SIZE>.jpg",
+      tags: ["long exposure", "nature", "landscape"],
     },
 
     {
@@ -36,6 +46,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-7-<SIZE>.jpg",
+      tags: ["infrared", "850nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -44,6 +55,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/emE2dRBr8p4C8G4d6",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-8-<SIZE>.jpg",
+      tags: ["infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -52,6 +64,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-9-<SIZE>.png",
+      tags: ["infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -60,6 +73,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/pX5dT4Av2dZL8XgR7",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/iredale-wreck-1-<SIZE>.jpg",
+      tags: ["long exposure", "nature", "landscape"],
     },
     {
       caption: {
@@ -68,6 +82,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-6-<SIZE>.jpg",
+      tags: ["sepia", "infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -76,6 +91,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/hjAD1fAL5Ryhrvi79",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-10-<SIZE>.png",
+      tags: ["infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -84,6 +100,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-11-<SIZE>.png",
+      tags: ["infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -92,6 +109,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/hjAD1fAL5Ryhrvi79",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-3-<SIZE>.png",
+      tags: ["infrared", "850nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -100,6 +118,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-4-<SIZE>.png",
+      tags: ["infrared", "850nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -108,6 +127,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-6-<SIZE>.png",
+      tags: ["infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -115,6 +135,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/A7rJjj8WxTsg6qW29",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-18-<SIZE>.jpg",
+      tags: ["nature", "landscape"],
     },
     {
       caption: {
@@ -123,6 +144,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-2-<SIZE>.jpg",
+      tags: ["infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -131,6 +153,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-3-<SIZE>.jpg",
+      tags: ["sepia", "infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -139,6 +162,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-4-<SIZE>.jpg",
+      tags: ["infrared", "720nm", "nature", "landscape"],
     },
 
     {
@@ -148,6 +172,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-7-<SIZE>.png",
+      tags: ["infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -156,6 +181,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-8-<SIZE>.png",
+      tags: ["long exposure", "infrared", "850nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -164,6 +190,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/EfVL3nLikvhtB5Ps5",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-14-<SIZE>.png",
+      tags: ["infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -171,6 +198,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/m11QBDQCKMKgH1zA8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/cabin-1-<SIZE>.jpg",
+      tags: ["nature", "landscape"],
     },
     {
       caption: {
@@ -179,6 +207,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/EfVL3nLikvhtB5Ps5",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-15-<SIZE>.png",
+      tags: ["sepia", "infrared", "720nm", "nature", "landscape"],
     },
 
     {
@@ -188,6 +217,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-2-<SIZE>.png",
+      tags: ["long exposure", "infrared", "720nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -196,6 +226,14 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-12-<SIZE>.png",
+      tags: [
+        "sepia",
+        "long exposure",
+        "infrared",
+        "850nm",
+        "nature",
+        "landscape",
+      ],
     },
     {
       caption: {
@@ -204,6 +242,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/4S3fxz1GZS4kdjT66",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-13-<SIZE>.png",
+      tags: ["b+w", "infrared", "850nm", "nature", "landscape"],
     },
     {
       caption: {
@@ -212,6 +251,7 @@ const pnw: GalleryData = {
         location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/yakima-5-<SIZE>.png",
+      tags: ["infrared", "850nm", "nature", "landscape"],
     },
   ],
 };

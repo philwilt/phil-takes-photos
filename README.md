@@ -32,4 +32,4 @@ npm run build
 
 ## Acknowledgments
 
-Built with the help of [OpenCode](https://opencode.ai) and Claude Sonnet 4.5.
+Built with the help of [OpenCode](https://opencode.ai)

@@ -10,6 +10,7 @@ const seattle: GalleryData = {
         location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/seattle-<SIZE>.jpg",
+      tags: ["long exposure", "urban", "cityscape", "nature"],
     },
     {
       caption: {
@@ -18,6 +19,7 @@ const seattle: GalleryData = {
         location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/seattle-1-<SIZE>.jpg",
+      tags: ["long exposure", "urban", "cityscape", "nature"],
     },
     {
       caption: {
@@ -26,6 +28,7 @@ const seattle: GalleryData = {
         location: "https://maps.app.goo.gl/kw8rdEQBX1X4x1L7A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/yakima/seahawks-1-<SIZE>.jpg",
+      tags: ["long exposure", "urban", "cityscape", "nature"],
     },
   ],
 };

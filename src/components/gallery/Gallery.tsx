@@ -31,62 +31,40 @@ export const Gallery: React.FC<{
   const gallery: GalleryData | undefined =
     typeof galleryId !== "undefined" ? getGalleryData(galleryId) : undefined;
 
-  // Extract available filters from images based on allowed list
+  /**
+   * Extract unique tags from all images in the gallery, normalized to lowercase and trimmed.
+   * Only includes tags from images that have non-empty tag arrays.
+   */
   const availableFilters = useMemo(() => {
-    // Define allowed filters
-    const allowedFilters = [
-      "infrared",
-      "850nm",
-      "720nm",
-      "long exposure",
-      "b+w",
-      "sepia",
-    ];
     if (!gallery) return [];
 
     const foundFilters = new Set<string>();
 
     gallery.images.forEach((image) => {
-      if (image.caption.technical) {
-        const technicalLower = image.caption.technical.toLowerCase();
-        allowedFilters.forEach((filter) => {
-          // Special handling for infrared filter
-          if (filter === "infrared") {
-            if (
-              technicalLower.includes("720nm") ||
-              technicalLower.includes("850nm")
-            ) {
-              foundFilters.add(filter);
-            }
-          } else if (technicalLower.includes(filter.toLowerCase())) {
-            foundFilters.add(filter);
-          }
-        });
+      if (image.tags && image.tags.length > 0) {
+        image.tags.forEach((tag) => foundFilters.add(tag.toLowerCase().trim()));
       }
     });
     return Array.from(foundFilters).sort();
   }, [gallery]);
 
-  // Filter images based on selected filters
+  /**
+   * Filter images based on selected filters, using case-insensitive comparison.
+   * Images without tags or with empty tag arrays are excluded when filters are applied.
+   */
   const filteredImages = useMemo(() => {
     if (!gallery) return [];
     if (selectedFilters.length === 0) {
       return gallery.images;
     }
     return gallery.images.filter((image) => {
-      if (!image.caption.technical) return false;
+      if (!image.tags || image.tags.length === 0) return false;
 
-      const technicalLower = image.caption.technical.toLowerCase();
-
-      return selectedFilters.some((filter) => {
-        // Special handling for infrared filter
-        if (filter === "infrared") {
-          return (
-            technicalLower.includes("720nm") || technicalLower.includes("850nm")
-          );
-        }
-        return technicalLower.includes(filter.toLowerCase());
-      });
+      return selectedFilters.some((filter) =>
+        image.tags!.some(
+          (tag) => tag.toLowerCase().trim() === filter.toLowerCase().trim(),
+        ),
+      );
     });
   }, [gallery, selectedFilters]);
 

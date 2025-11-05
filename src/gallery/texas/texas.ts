@@ -9,6 +9,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/gTY2erxcgSzcNKrq9",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-3-<SIZE>.jpg",
+      tags: ["nature", "landscape"],
     },
     {
       caption: {
@@ -16,6 +17,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/QDVC6vzrcZ4hyoQJ8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-8-<SIZE>.jpg",
+      tags: ["nature", "landscape", "wildlife"],
     },
     {
       caption: {
@@ -23,6 +25,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/gTY2erxcgSzcNKrq9",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-10-<SIZE>.jpg",
+      tags: ["urban"],
     },
 
     {
@@ -31,6 +34,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/gTY2erxcgSzcNKrq9",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-2-<SIZE>.jpg",
+      tags: ["nature", "landscape"],
     },
 
     {
@@ -39,6 +43,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/QDVC6vzrcZ4hyoQJ8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-6-<SIZE>.jpg",
+      tags: ["nature", "landscape", "wildlife"],
     },
     {
       caption: {
@@ -46,6 +51,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/gTY2erxcgSzcNKrq9",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-11-<SIZE>.jpg",
+      tags: ["urban", "architecture"],
     },
     {
       caption: {
@@ -53,6 +59,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/QDVC6vzrcZ4hyoQJ8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-9-<SIZE>.jpg",
+      tags: ["nature", "landscape", "wildlife"],
     },
     {
       caption: {
@@ -61,6 +68,7 @@ const texas: GalleryData = {
         technical: "B+W",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-4-<SIZE>.jpg",
+      tags: ["nature", "landscape", "b+w"],
     },
     {
       caption: {
@@ -69,6 +77,7 @@ const texas: GalleryData = {
         technical: "B+W",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-12-<SIZE>.jpg",
+      tags: ["nature", "landscape", "b+w"],
     },
     {
       caption: {
@@ -77,6 +86,7 @@ const texas: GalleryData = {
         technical: "B+W",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-5-<SIZE>.jpg",
+      tags: ["nature", "landscape", "wildlife", "b+w"],
     },
     {
       caption: {
@@ -85,6 +95,7 @@ const texas: GalleryData = {
         technical: "B+W",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-7-<SIZE>.jpg",
+      tags: ["nature", "landscape", "wildlife", "b+w"],
     },
   ],
 };

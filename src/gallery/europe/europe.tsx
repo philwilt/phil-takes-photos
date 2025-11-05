@@ -10,6 +10,7 @@ const europe: GalleryData = {
         location: "https://maps.app.goo.gl/ofvBYuxbTi4JKBnQ7",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-4-<SIZE>.png",
+      tags: ["architecture", "urban"],
     },
     {
       caption: {
@@ -17,6 +18,7 @@ const europe: GalleryData = {
         location: "https://maps.app.goo.gl/ofvBYuxbTi4JKBnQ7",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-6-<SIZE>.png",
+      tags: ["architecture", "urban"],
     },
     {
       caption: {
@@ -24,6 +26,7 @@ const europe: GalleryData = {
         location: "https://maps.app.goo.gl/vDMT6QYY21divaM9A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-1-<SIZE>.png",
+      tags: ["architecture", "urban"],
     },
     {
       caption: {
@@ -31,6 +34,7 @@ const europe: GalleryData = {
         location: "https://maps.app.goo.gl/nPg9VCuk7YNVjrDX8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-3-<SIZE>.png",
+      tags: ["urban"],
     },
     {
       caption: {
@@ -38,6 +42,7 @@ const europe: GalleryData = {
         location: "https://maps.app.goo.gl/ofvBYuxbTi4JKBnQ7",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-5-<SIZE>.png",
+      tags: ["architecture", "urban"],
     },
     {
       caption: {
@@ -45,6 +50,7 @@ const europe: GalleryData = {
         location: "https://maps.app.goo.gl/rHibVYKjPF27x2pR9",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/europe/europe-2-<SIZE>.png",
+      tags: ["nature", "landscape"],
     },
   ],
 };

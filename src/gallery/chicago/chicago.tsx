@@ -10,6 +10,7 @@ const chicago: GalleryData = {
         location: "https://maps.app.goo.gl/4q5gcfeQ7WG7tvvQ8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/chicago/chicago-1-<SIZE>.png",
+      tags: ["urban", "architecture", "cityscape"],
     },
     {
       caption: {
@@ -17,6 +18,7 @@ const chicago: GalleryData = {
         location: "https://maps.app.goo.gl/4q5gcfeQ7WG7tvvQ8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/chicago/chicago-2-<SIZE>.png",
+      tags: ["urban", "architecture", "cityscape"],
     },
     {
       caption: {
@@ -24,6 +26,7 @@ const chicago: GalleryData = {
         location: "https://maps.app.goo.gl/4q5gcfeQ7WG7tvvQ8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/chicago/chicago-3-<SIZE>.png",
+      tags: ["urban", "architecture", "cityscape"],
     },
   ],
 };

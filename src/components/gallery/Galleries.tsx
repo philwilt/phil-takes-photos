@@ -12,6 +12,7 @@ const Galleries: React.FC = () => {
     "patagonia",
     "seattle",
     "chicago",
+    "texas",
   ];
   return (
     <div className="mt-10">

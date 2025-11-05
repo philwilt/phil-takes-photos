@@ -6,6 +6,7 @@ import europe from "./europe/europe";
 import chicago from "./chicago/chicago";
 import taipei from "./taipei/taipei";
 import seattle from "./seattle/seattle";
+import texas from "./texas/texas";
 
 export type GalleryDictionary = {
   [index: string]: GalleryData;
@@ -14,10 +15,11 @@ export type GalleryDictionary = {
 const galleries: GalleryDictionary = {
   pnw: pnw,
   vietnam: vietnam,
+  taipei: taipei,
   patagonia: patagonia,
   europe: europe,
+  texas: texas,
   chicago: chicago,
-  taipei: taipei,
   seattle: seattle,
 };
 

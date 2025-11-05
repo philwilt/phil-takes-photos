@@ -23,6 +23,11 @@ const galleries: GalleryDictionary = {
   seattle: seattle,
 };
 
+/**
+ * Retrieve gallery data by name.
+ * @param galleryName - The route name of the gallery.
+ * @returns The gallery data object.
+ */
 const getGalleryData = (galleryName: string): GalleryData => {
   return galleries[galleryName];
 };

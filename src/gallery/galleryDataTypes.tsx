@@ -7,6 +7,7 @@ export type GalleryCaptionData = {
 export type GalleryImageData = {
   caption: GalleryCaptionData;
   src: string;
+  tags?: string[];
 };
 
 export type GalleryData = {

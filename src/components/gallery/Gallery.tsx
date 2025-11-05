@@ -31,37 +31,15 @@ export const Gallery: React.FC<{
   const gallery: GalleryData | undefined =
     typeof galleryId !== "undefined" ? getGalleryData(galleryId) : undefined;
 
-  // Extract available filters from images based on allowed list
+  // Extract available filters from images tags
   const availableFilters = useMemo(() => {
-    // Define allowed filters
-    const allowedFilters = [
-      "infrared",
-      "850nm",
-      "720nm",
-      "long exposure",
-      "b+w",
-      "sepia",
-    ];
     if (!gallery) return [];
 
     const foundFilters = new Set<string>();
 
     gallery.images.forEach((image) => {
-      if (image.caption.technical) {
-        const technicalLower = image.caption.technical.toLowerCase();
-        allowedFilters.forEach((filter) => {
-          // Special handling for infrared filter
-          if (filter === "infrared") {
-            if (
-              technicalLower.includes("720nm") ||
-              technicalLower.includes("850nm")
-            ) {
-              foundFilters.add(filter);
-            }
-          } else if (technicalLower.includes(filter.toLowerCase())) {
-            foundFilters.add(filter);
-          }
-        });
+      if (image.tags) {
+        image.tags.forEach((tag) => foundFilters.add(tag));
       }
     });
     return Array.from(foundFilters).sort();
@@ -74,19 +52,9 @@ export const Gallery: React.FC<{
       return gallery.images;
     }
     return gallery.images.filter((image) => {
-      if (!image.caption.technical) return false;
+      if (!image.tags) return false;
 
-      const technicalLower = image.caption.technical.toLowerCase();
-
-      return selectedFilters.some((filter) => {
-        // Special handling for infrared filter
-        if (filter === "infrared") {
-          return (
-            technicalLower.includes("720nm") || technicalLower.includes("850nm")
-          );
-        }
-        return technicalLower.includes(filter.toLowerCase());
-      });
+      return selectedFilters.some((filter) => image.tags!.includes(filter));
     });
   }, [gallery, selectedFilters]);
 

@@ -31,7 +31,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     <div className="filter-bar bg-white dark:bg-neutral-100 rounded-md p-4 mb-4 shadow-md">
       <div className="flex flex-wrap items-center gap-3">
         <span className="text-sm font-medium text-neutral-700">
-          Filter by technique:
+          Filter by tags:
         </span>
         {availableFilters.map((filter) => (
           <label

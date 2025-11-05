@@ -9,6 +9,7 @@ const taipei: GalleryData = {
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-4-<SIZE>.jpg",
+      tags: ["urban", "cityscape"],
     },
     {
       caption: {
@@ -16,6 +17,7 @@ const taipei: GalleryData = {
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-6-<SIZE>.jpg",
+      tags: ["urban", "cityscape"],
     },
     {
       caption: {
@@ -23,6 +25,7 @@ const taipei: GalleryData = {
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-7-<SIZE>.jpg",
+      tags: ["urban", "cityscape"],
     },
     {
       caption: {
@@ -30,6 +33,7 @@ const taipei: GalleryData = {
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-3-<SIZE>.jpg",
+      tags: ["urban", "cityscape"],
     },
 
     {
@@ -38,6 +42,7 @@ const taipei: GalleryData = {
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-8-<SIZE>.jpg",
+      tags: ["urban", "cityscape"],
     },
     {
       caption: {
@@ -45,6 +50,7 @@ const taipei: GalleryData = {
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-2-<SIZE>.jpg",
+      tags: ["urban", "cityscape"],
     },
     {
       caption: {
@@ -52,6 +58,7 @@ const taipei: GalleryData = {
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-5-<SIZE>.jpg",
+      tags: ["urban", "cityscape"],
     },
     {
       caption: {
@@ -59,6 +66,7 @@ const taipei: GalleryData = {
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-1-<SIZE>.jpg",
+      tags: ["urban", "cityscape"],
     },
   ],
 };

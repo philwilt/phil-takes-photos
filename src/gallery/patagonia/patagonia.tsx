@@ -9,6 +9,7 @@ const patagonia: GalleryData = {
         location: "https://maps.app.goo.gl/N8Zf2i1mEfkKdio8A",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-1-<SIZE>.png",
+      tags: ["nature", "landscape"],
     },
     {
       caption: {
@@ -16,6 +17,7 @@ const patagonia: GalleryData = {
         location: "https://maps.app.goo.gl/t1j6LedZRd27MgUc6",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-2-<SIZE>.png",
+      tags: ["nature", "landscape", "wildlife"],
     },
     {
       caption: {
@@ -23,6 +25,7 @@ const patagonia: GalleryData = {
         location: "https://maps.app.goo.gl/rKx6uqicmwnPi59X6",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-3-<SIZE>.png",
+      tags: ["nature", "landscape"],
     },
     {
       caption: {
@@ -30,6 +33,7 @@ const patagonia: GalleryData = {
         location: "https://maps.app.goo.gl/rKx6uqicmwnPi59X6",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-4-<SIZE>.png",
+      tags: ["nature", "landscape"],
     },
     {
       caption: {
@@ -37,6 +41,7 @@ const patagonia: GalleryData = {
         location: "https://maps.app.goo.gl/7rErY9f6LPFgNvsR8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-5-<SIZE>.png",
+      tags: ["nature", "landscape"],
     },
     {
       caption: {
@@ -44,6 +49,7 @@ const patagonia: GalleryData = {
         location: "https://maps.app.goo.gl/7rErY9f6LPFgNvsR8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/patagonia/patagonia-6-<SIZE>.png",
+      tags: ["nature", "landscape"],
     },
   ],
 };

@@ -36,7 +36,7 @@ function About() {
 
           <div className="flex lg:flex-row flex-col">
             <div className="shadow-md shadow-black-950/10 p-2 flex flex-col">
-              <div className=" text-xl font-large flex flex-row mt-2 rounded-sm pl-2 sm:pl-10 pr-40 pt-2 pb-20 bg-[url(/about-me.jpg)] bg-cover bg-top-right md:bg-center h-[260px] sm:w-sm">
+              <div className=" text-xl font-large flex flex-row mt-2 rounded-sm pl-2 sm:pl-10 pr-40 pt-12 pb-20 bg-[url(https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/public/phil-about-1-small.jpg)] bg-cover bg-top-right md:bg-center h-[415px] sm:w-sm">
                 <div className="text-xl font-large font-bold flex flex-row mt-2 bg-neutral-50 text-neutral-600 pl-3 pr-5 h-fit">
                   About Phil
                 </div>

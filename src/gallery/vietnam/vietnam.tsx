@@ -98,7 +98,7 @@ const vietnam: GalleryData = {
         location: "https://maps.app.goo.gl/B4miVUVbRC6fEPnB7",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/vietnam/vietnam-10-<SIZE>.png",
-      tags: ["urban"],
+      tags: ["nature"],
     },
     {
       caption: {
@@ -106,7 +106,7 @@ const vietnam: GalleryData = {
         location: "https://maps.app.goo.gl/B4miVUVbRC6fEPnB7",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/vietnam/vietnam-11-<SIZE>.png",
-      tags: ["urban"],
+      tags: ["nature"],
     },
     {
       caption: {
@@ -114,7 +114,7 @@ const vietnam: GalleryData = {
         location: "https://maps.app.goo.gl/B4miVUVbRC6fEPnB7",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/vietnam/vietnam-12-<SIZE>.png",
-      tags: ["urban"],
+      tags: ["nature"],
     },
     {
       caption: {

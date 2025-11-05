@@ -6,6 +6,10 @@ export interface FilterBarProps {
   onFilterChange: (filters: string[]) => void;
 }
 
+/**
+ * FilterBar component for selecting tag-based filters.
+ * Displays checkboxes for available tags and a clear button when filters are selected.
+ */
 export const FilterBar: React.FC<FilterBarProps> = ({
   availableFilters,
   selectedFilters,
@@ -15,6 +19,9 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     return null;
   }
 
+  /**
+   * Toggle a filter on or off in the selected filters list.
+   */
   const handleToggleFilter = (filter: string) => {
     if (selectedFilters.includes(filter)) {
       onFilterChange(selectedFilters.filter((f) => f !== filter));
@@ -23,6 +30,9 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     }
   };
 
+  /**
+   * Clear all selected filters.
+   */
   const handleClearFilters = () => {
     onFilterChange([]);
   };

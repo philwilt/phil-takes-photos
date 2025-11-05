@@ -31,30 +31,40 @@ export const Gallery: React.FC<{
   const gallery: GalleryData | undefined =
     typeof galleryId !== "undefined" ? getGalleryData(galleryId) : undefined;
 
-  // Extract available filters from images tags
+  /**
+   * Extract unique tags from all images in the gallery, normalized to lowercase and trimmed.
+   * Only includes tags from images that have non-empty tag arrays.
+   */
   const availableFilters = useMemo(() => {
     if (!gallery) return [];
 
     const foundFilters = new Set<string>();
 
     gallery.images.forEach((image) => {
-      if (image.tags) {
-        image.tags.forEach((tag) => foundFilters.add(tag));
+      if (image.tags && image.tags.length > 0) {
+        image.tags.forEach((tag) => foundFilters.add(tag.toLowerCase().trim()));
       }
     });
     return Array.from(foundFilters).sort();
   }, [gallery]);
 
-  // Filter images based on selected filters
+  /**
+   * Filter images based on selected filters, using case-insensitive comparison.
+   * Images without tags or with empty tag arrays are excluded when filters are applied.
+   */
   const filteredImages = useMemo(() => {
     if (!gallery) return [];
     if (selectedFilters.length === 0) {
       return gallery.images;
     }
     return gallery.images.filter((image) => {
-      if (!image.tags) return false;
+      if (!image.tags || image.tags.length === 0) return false;
 
-      return selectedFilters.some((filter) => image.tags!.includes(filter));
+      return selectedFilters.some((filter) =>
+        image.tags!.some(
+          (tag) => tag.toLowerCase().trim() === filter.toLowerCase().trim(),
+        ),
+      );
     });
   }, [gallery, selectedFilters]);
 

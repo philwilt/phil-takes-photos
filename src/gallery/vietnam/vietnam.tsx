@@ -25,7 +25,7 @@ const vietnam: GalleryData = {
         location: "https://maps.app.goo.gl/zkATt1f6uEbV5TcR9",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/vietnam/vietnam-15-<SIZE>.png",
-      tags: ["nature", "landscape"],
+      tags: ["nature"],
     },
     {
       caption: {
@@ -41,7 +41,7 @@ const vietnam: GalleryData = {
         location: "https://maps.app.goo.gl/ga91PLRpsYLr4hys8",
       },
       src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/vietnam/vietnam-3-<SIZE>.png",
-      tags: ["nature", "landscape"],
+      tags: ["nature", "urban"],
     },
     {
       caption: {

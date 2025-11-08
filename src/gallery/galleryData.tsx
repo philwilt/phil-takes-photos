@@ -8,6 +8,8 @@ import taipei from "./taipei/taipei";
 import seattle from "./seattle/seattle";
 import texas from "./texas/texas";
 
+export const GALLERY_BASE_URL = "https://d38881i5te6f0.cloudfront.net";
+
 export type GalleryDictionary = {
   [index: string]: GalleryData;
 };

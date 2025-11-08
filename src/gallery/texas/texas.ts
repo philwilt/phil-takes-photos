@@ -1,4 +1,5 @@
 import { type GalleryData } from "../galleryDataTypes";
+import { GALLERY_BASE_URL } from "../galleryData";
 const texas: GalleryData = {
   title: "Texas",
   routeName: "texas",
@@ -8,7 +9,7 @@ const texas: GalleryData = {
         short: "Road to the Border",
         location: "https://maps.app.goo.gl/gTY2erxcgSzcNKrq9",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-3-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-3-<SIZE>.jpg`,
       tags: ["nature", "landscape"],
     },
     {
@@ -16,7 +17,7 @@ const texas: GalleryData = {
         short: "Peaceful Bison",
         location: "https://maps.app.goo.gl/QDVC6vzrcZ4hyoQJ8",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-8-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-8-<SIZE>.jpg`,
       tags: ["nature", "landscape", "wildlife"],
     },
     {
@@ -24,7 +25,7 @@ const texas: GalleryData = {
         short: "Marfa Water Tower",
         location: "https://maps.app.goo.gl/gTY2erxcgSzcNKrq9",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-10-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-10-<SIZE>.jpg`,
       tags: ["urban"],
     },
 
@@ -33,7 +34,7 @@ const texas: GalleryData = {
         short: "Framing the Border",
         location: "https://maps.app.goo.gl/gTY2erxcgSzcNKrq9",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-2-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-2-<SIZE>.jpg`,
       tags: ["nature", "landscape"],
     },
 
@@ -42,7 +43,7 @@ const texas: GalleryData = {
         short: "Playful Bison",
         location: "https://maps.app.goo.gl/QDVC6vzrcZ4hyoQJ8",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-6-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-6-<SIZE>.jpg`,
       tags: ["nature", "landscape", "wildlife"],
     },
     {
@@ -50,7 +51,7 @@ const texas: GalleryData = {
         short: "Palace Theater",
         location: "https://maps.app.goo.gl/gTY2erxcgSzcNKrq9",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-11-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-11-<SIZE>.jpg`,
       tags: ["urban", "architecture"],
     },
     {
@@ -58,7 +59,7 @@ const texas: GalleryData = {
         short: "Moving Bison",
         location: "https://maps.app.goo.gl/QDVC6vzrcZ4hyoQJ8",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-9-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-9-<SIZE>.jpg`,
       tags: ["nature", "landscape", "wildlife"],
     },
     {
@@ -67,7 +68,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/A7hLdJ7UTGfEBnGP8",
         technical: "B+W",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-4-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-4-<SIZE>.jpg`,
       tags: ["nature", "landscape", "b+w"],
     },
     {
@@ -76,7 +77,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/A7hLdJ7UTGfEBnGP8",
         technical: "B+W",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-12-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-12-<SIZE>.jpg`,
       tags: ["nature", "landscape", "b+w"],
     },
     {
@@ -85,7 +86,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/QDVC6vzrcZ4hyoQJ8",
         technical: "B+W",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-5-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-5-<SIZE>.jpg`,
       tags: ["nature", "landscape", "wildlife", "b+w"],
     },
     {
@@ -94,7 +95,7 @@ const texas: GalleryData = {
         location: "https://maps.app.goo.gl/QDVC6vzrcZ4hyoQJ8",
         technical: "B+W",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/texas/texas-7-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/texas/texas-7-<SIZE>.jpg`,
       tags: ["nature", "landscape", "wildlife", "b+w"],
     },
   ],

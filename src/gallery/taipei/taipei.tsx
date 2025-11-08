@@ -1,4 +1,5 @@
 import { type GalleryData } from "../galleryDataTypes";
+import { GALLERY_BASE_URL } from "../galleryData";
 const taipei: GalleryData = {
   title: "Taipei",
   routeName: "taipei",
@@ -8,7 +9,7 @@ const taipei: GalleryData = {
         short: "Taipei 101",
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-4-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/taipei/taipei-4-<SIZE>.jpg`,
       tags: ["urban", "cityscape"],
     },
     {
@@ -16,7 +17,7 @@ const taipei: GalleryData = {
         short: "Fish",
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-6-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/taipei/taipei-6-<SIZE>.jpg`,
       tags: ["urban"],
     },
     {
@@ -24,7 +25,7 @@ const taipei: GalleryData = {
         short: "Streets at Night",
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-7-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/taipei/taipei-7-<SIZE>.jpg`,
       tags: ["urban", "cityscape"],
     },
     {
@@ -32,7 +33,7 @@ const taipei: GalleryData = {
         short: "Taipei 101",
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-3-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/taipei/taipei-3-<SIZE>.jpg`,
       tags: ["urban", "cityscape"],
     },
 
@@ -41,7 +42,7 @@ const taipei: GalleryData = {
         short: "Typhoon City",
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-8-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/taipei/taipei-8-<SIZE>.jpg`,
       tags: ["urban", "cityscape"],
     },
     {
@@ -49,7 +50,7 @@ const taipei: GalleryData = {
         short: "Buns",
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-2-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/taipei/taipei-2-<SIZE>.jpg`,
       tags: ["urban"],
     },
     {
@@ -57,7 +58,7 @@ const taipei: GalleryData = {
         short: "Noodles",
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-5-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/taipei/taipei-5-<SIZE>.jpg`,
       tags: ["urban", "food"],
     },
     {
@@ -65,7 +66,7 @@ const taipei: GalleryData = {
         short: "Meat",
         location: "https://maps.app.goo.gl/fMXHyq6v4FVWUgT37",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/taipei/taipei-1-<SIZE>.jpg",
+      src: `${GALLERY_BASE_URL}/taipei/taipei-1-<SIZE>.jpg`,
       tags: ["urban", "food"],
     },
   ],

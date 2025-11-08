@@ -1,4 +1,5 @@
 import { type GalleryData } from "../galleryDataTypes";
+import { GALLERY_BASE_URL } from "../galleryData";
 
 const chicago: GalleryData = {
   title: "Chicago",
@@ -9,7 +10,7 @@ const chicago: GalleryData = {
         short: "Streets at Night",
         location: "https://maps.app.goo.gl/4q5gcfeQ7WG7tvvQ8",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/chicago/chicago-1-<SIZE>.png",
+      src: `${GALLERY_BASE_URL}/chicago/chicago-1-<SIZE>.png`,
       tags: ["urban", "architecture", "cityscape"],
     },
     {
@@ -17,7 +18,7 @@ const chicago: GalleryData = {
         short: "Empty Bean",
         location: "https://maps.app.goo.gl/4q5gcfeQ7WG7tvvQ8",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/chicago/chicago-2-<SIZE>.png",
+      src: `${GALLERY_BASE_URL}/chicago/chicago-2-<SIZE>.png`,
       tags: ["urban", "architecture", "cityscape"],
     },
     {
@@ -25,7 +26,7 @@ const chicago: GalleryData = {
         short: "Skyline at Night",
         location: "https://maps.app.goo.gl/4q5gcfeQ7WG7tvvQ8",
       },
-      src: "https://phil-takes-photos-gallery.s3.us-east-1.amazonaws.com/chicago/chicago-3-<SIZE>.png",
+      src: `${GALLERY_BASE_URL}/chicago/chicago-3-<SIZE>.png`,
       tags: ["urban", "architecture", "cityscape"],
     },
   ],

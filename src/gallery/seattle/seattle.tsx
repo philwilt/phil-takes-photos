@@ -1,5 +1,5 @@
 import { type GalleryData } from "../galleryDataTypes";
-import { GALLERY_BASE_URL } from "../galleryData";
+import { GALLERY_BASE_URL } from "../constants";
 const seattle: GalleryData = {
   title: "Seattle",
   routeName: "seattle",

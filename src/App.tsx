@@ -20,7 +20,7 @@ function App() {
       <footer className="flex flex-col items-center justify-center mt-3 gap-2">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.instagram.com/plentiphil/"
+          href="https://www.instagram.com/plentiphilphotos/"
           target="_blank"
           rel="noopener noreferrer"
         >
